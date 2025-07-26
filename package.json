@@ -14,7 +14,7 @@
     "generate:gallery": "node generateGalleryData.js"
   },
   "dependencies": {
-    "vue": "^3.5.17"
+    "vue": "^3.5.18"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",
