@@ -1,7 +1,7 @@
-<script lang="ts">
+<script>
 export default {
     methods: {
-        scrollTo(sectionId: string) {
+        scrollTo(sectionId) {
             const el = document.getElementById(sectionId);
             if (el) {
                 el.scrollIntoView({ behavior: 'smooth' });
