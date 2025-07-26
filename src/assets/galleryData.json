@@ -1,0 +1,52 @@
+[
+  {
+    "filename": "Boot Design 2.png",
+    "type": "image",
+    "caption": "Left side of a boot I 3D modeled for a One Piece cosplay, intended for physical recreation."
+  },
+  {
+    "filename": "Boot Design.png",
+    "type": "image",
+    "caption": "Right side of the same cosplay boot."
+  },
+  {
+    "filename": "Boot.png",
+    "type": "image",
+    "caption": "Created and designed on Shapr3D."
+  },
+  {
+    "filename": "DessertAppVideo.mp4",
+    "type": "video",
+    "caption": "Dessert Showcase App developed as a final exam project. Features desserts and recipes from various countries. More details are available on my GitHub."
+  },
+  {
+    "filename": "Everlasting Face.png",
+    "type": "image",
+    "caption": "A work-in-progress 3D model of the Everlasting Moonglow weapon from Genshin Impact, created in Shapr3D for 3D printing."
+  },
+  {
+    "filename": "Figma.png",
+    "type": "image",
+    "caption": "This portfolio website was fully designed in Figma and developed by me."
+  },
+  {
+    "filename": "Jester Hat Design Pattern.png",
+    "type": "image",
+    "caption": "Blueprints for a custom jester hat, designed in Shapr3D using precise head measurements in centimeters."
+  },
+  {
+    "filename": "Jester Hat.png",
+    "type": "image",
+    "caption": "Custom jester hat pattern designed in Shapr3D."
+  },
+  {
+    "filename": "PortfolioIcon.png",
+    "type": "image",
+    "caption": "Portfolio website icon, hand-drawn and designed in Procreate."
+  },
+  {
+    "filename": "Yahtzee.png",
+    "type": "image",
+    "caption": "For a final exam project, I co-developed a Yahtzee game and independently designed the main UI using NetBeans GUI Builder."
+  }
+]

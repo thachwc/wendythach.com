@@ -1,0 +1,67 @@
+@import './base.css';
+
+#app {
+  width: 1270px;
+  height: 595px;
+  margin-top: 176px;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#app::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  width: 1270px;
+  min-height: 594px;
+}
+
+.content {
+  border: 1px solid #d9a5a9;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.button_style {
+  background-color: #cf9c9b;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  font-size: 20px;
+  display: flex;
+  width: 117px;
+  height: 49px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.button_text {
+  color: #f9f4dd;
+  text-align: center;
+  justify-content: center;
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  border: 1px solid #ebddc8;
+  line-height: 39px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #bf8c8c;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
