@@ -18,8 +18,8 @@ function openModal() {
         </div>
         <div id="name_container">
             <h1>Wendy Thach</h1>
-            <div id="line">
-                <img src="../assets/Line.svg" alt="Line Under Name">
+            <div id="resumeLine">
+                <img id="line" src="../assets/Line.svg" alt="Line Under Name">
                 <button class="button_style" @click="openModal()"><span class="button_text">RESUME</span></button>
             </div>
         </div>
@@ -55,11 +55,15 @@ function openModal() {
     flex-shrink: 0;
 }
 
-#line {
+#resumeLine {
     display: flex;
     justify-content: space-between;
     margin: -10% 0px 10% 17%;
     width: 568px;
+}
+
+#line {
+    width: 75%;
 }
 
 h1 {
