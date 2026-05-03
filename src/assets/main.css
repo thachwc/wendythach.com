@@ -1,4 +1,13 @@
 @import './base.css';
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: auto;
+  -webkit-user-drag: none;
+}
 
 #app {
   width: 1270px;
@@ -17,7 +26,21 @@
 
 .container {
   width: 1270px;
-  min-height: 594px;
+  min-height: 595px;
+}
+
+@media (max-width: 769px) {
+  #app {
+    width: 336px;
+    height: 442px;
+    margin-top: 142px;
+    overflow-y: auto;
+  }
+
+  .container {
+    width: 336px;
+    min-height: 442px;
+  }
 }
 
 .content {
@@ -30,14 +53,13 @@
   background-color: #cf9c9b;
   border-radius: 10px;
   border: none;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-  font-size: 20px;
   display: flex;
   width: 117px;
   height: 49px;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transition:
     background-color 0.3s ease,
     color 0.3s ease;
