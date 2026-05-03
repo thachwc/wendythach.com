@@ -12,7 +12,7 @@ onUnmounted(() => window.removeEventListener('resize', handleResize))
 </script>
 
 <template>
-  <img v-if="isMobile" src="../assets/BottomMobile.svg" alt="Bottom Curtains">
+  <img v-if="isMobile" src="../assets/bottomMobile.svg" alt="Bottom Curtains">
   <img v-else src="../assets/BottomCurtains.svg" alt="Bottom Curtains">
 </template>
 <style scoped>
