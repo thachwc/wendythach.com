@@ -40,6 +40,6 @@ import Foot from './components/Footer.vue';
 }
 
 section {
-  width: 595px;
+  width: 100%;
 }
 </style>

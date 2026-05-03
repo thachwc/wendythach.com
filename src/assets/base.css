@@ -34,7 +34,7 @@ body {
   background-color: #fffce6;
   border-radius: 20px;
   width: 1274px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 html {
@@ -45,4 +45,22 @@ html {
 
 section {
   scroll-margin-top: 0px;
+}
+
+@media (max-width: 769px) {
+  body {
+    position: fixed;
+    margin: 0px;
+    width: 338px;
+    height: 644px;
+    border: 1px solid white;
+    background-color: #fffce6;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+
+  html {
+    max-height: 644px;
+  }
 }
